@@ -10,23 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c522e588-4d43-4646-ad50-0455bc9ba878" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/graphql-client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/graphql-client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-client/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-client/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-client/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-client/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-client/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-client/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/graphql-client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-client/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-client/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/graphql-client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-client/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-client/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql-client/src/setupTests.js" beforeDir="false" />
-    </list>
+    <list default="true" id="c522e588-4d43-4646-ad50-0455bc9ba878" name="Default Changelist" comment="start graphql" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633110656462</updated>
       <workItem from="1633110657495" duration="887000" />
-      <workItem from="1633454144216" duration="706000" />
+      <workItem from="1633454144216" duration="821000" />
     </task>
     <servers />
   </component>
@@ -83,6 +67,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start graphql" />
+    <option name="LAST_COMMIT_MESSAGE" value="start graphql" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2481" y="288" key="search.everywhere.popup" timestamp="1633454523798">

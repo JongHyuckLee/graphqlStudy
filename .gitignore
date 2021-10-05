@@ -6,3 +6,5 @@ graphql-client/.idea
 graphql-client/node_modules
 graphql-client/package-lock.json
 graphql-client/yarn.lock
+
+.idea
