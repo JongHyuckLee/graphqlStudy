@@ -1,0 +1,8 @@
+graphql-server/node_modules
+graphql-server/package-lock.json
+graphql-server/.idea
+
+graphql-client/.idea
+graphql-client/node_modules
+graphql-client/package-lock.json
+graphql-client/yarn.lock
