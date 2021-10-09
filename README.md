@@ -5,3 +5,4 @@
 
 # 출처
 - https://graphql.org/graphql-js/running-an-express-graphql-server/
+- https://developer.okta.com/blog/2018/10/11/build-simple-web-app-with-express-react-graphql
