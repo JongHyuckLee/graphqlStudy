@@ -2,18 +2,28 @@ const express = require('express');
 const { graphqlHTTP } = require('express-graphql');
 const { buildSchema } = require('graphql');
 const cors = require('cors');
+const POSTS = [
+    { author: "John Doe", body: "Hello world" },
+    { author: "Jane Doe", body: "Hi, planet!" },
+];
 
-// Construct a schema, using GraphQL schema language
 const schema = buildSchema(`
-  type Query {
-    helloWorld: String
+   type Query {
+    posts: [Post]
+    post(id: ID!): Post
+  }
+
+  type Post {
+    id: ID
+    author: String
+    body: String
   }
 `);
 
+const mapPost = (post, id) => post && ({ id, ...post });
 const rootValue = {
-    helloWorld: () => {
-        return 'Hello world!';
-    },
+    posts: () => POSTS.map(mapPost),
+    post: ({ id }) => mapPost(POSTS[id], id),
 };
 
 const app = express();
